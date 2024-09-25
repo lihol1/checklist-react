@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/checklist-react/static/css/main.40538190.css",
+    "main.js": "/checklist-react/static/js/main.1dc08155.js",
+    "index.html": "/checklist-react/index.html",
+    "static/media/checkmarkblue.svg": "/checklist-react/static/media/checkmarkblue.29930572b1d0bcdce0a8.svg",
+    "main.40538190.css.map": "/checklist-react/static/css/main.40538190.css.map",
+    "main.1dc08155.js.map": "/checklist-react/static/js/main.1dc08155.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.40538190.css",
+    "static/js/main.1dc08155.js"
+  ]
+}
