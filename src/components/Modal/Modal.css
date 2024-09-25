@@ -1,0 +1,54 @@
+.checklist__modal {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    background-color: transparent;
+    z-index: 10;
+    cursor:default;
+} 
+
+.checklist__modal-window {
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 22px;
+    font-style: normal;
+    width: 500px;
+    padding: 20px;
+    text-align: center;
+    background-color: #fff;
+    border-radius: 5px;
+    border: 1px solid #036f90;
+    box-shadow: 2px 2px 10px 0 #d6e8ea;
+}
+
+.checklist__modalbtn {
+    width: 70px;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 5px;
+    border: 1px solid var(--second-color);
+    background-color: rgba(0, 229, 255, 0.2);
+}
+
+.checklist__modalbtn:hover, .checklist__modalbtn:focus {
+    background-color: rgba(0, 229, 255, 0.5);
+}
+
+.checklist__modalbtn + .checklist__modalbtn {
+    margin-left: 50px;
+}
+
+@media (max-width: 575px) {
+    .checklist__modal-window {
+        width: 265px;
+        font-size: 18px;
+        padding: 0 10px 12px;
+    }
+    .checklist__modalbtn {
+        font-size: 14px;
+    }
+}

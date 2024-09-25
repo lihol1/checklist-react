@@ -1,0 +1,42 @@
+.checklist__filters {
+    margin-bottom: 5px;
+}
+
+.checklist__filters-btn {
+    min-width: 60px;
+    font-size: 20px;
+    padding: 5px 10px;
+    margin-right: 10px;
+    outline: none;
+    background: var(--main-color);    
+    color: white;
+    text-decoration: none;    
+    border: 1px solid  var(--main-color);
+    border-radius: 5px;
+    box-shadow:inset 2px 2px 2px 0px rgba(255,255,255,.7),
+                7px 7px 20px 0px rgba(0,0,0,.1),
+                4px 4px 5px 0px rgba(0,0,0,.1);
+    transition: all 0.2s ease-in;
+}
+.checklist__filters-btn:hover{
+    background: #05a6d7;
+    border: 1px solid #05a6d7;
+}
+
+.btn-active{
+    position: relative;
+    top:1px;
+    background:#05a6d7;
+    border: 1px solid #05a6d7;
+}
+
+.checklist__filters-btn:focus, .btn-active:focus {
+    border: 1px solid #05a6d7;
+}
+
+@media (max-width: 575px) {
+    .checklist__filters-btn {
+        font-size: 18px;
+    }
+}
+ 

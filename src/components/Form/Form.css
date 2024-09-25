@@ -1,0 +1,26 @@
+.checklist__form {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: end;
+}
+.checklist__input {
+    width: 100%;
+    outline: none;
+    border: 2px solid var(--main-color);
+    padding: 10px;
+    font-size: 20px;
+    border-radius: 5px;
+    margin-bottom: 15px;
+}
+.checklist__input::placeholder {
+    color: var(--second-color);
+}
+
+@media (max-width: 575px) {
+    .checklist__input {
+        font-size: 18px;
+    }
+    .checklist__input::placeholder {
+        font-size: 18px;
+    }
+}
